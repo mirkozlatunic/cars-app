@@ -20,7 +20,7 @@ function CarSearch() {
           className="input"
           value={searchTerm}
           onChange={handleSearchTermChange}
-        ></input>
+        />
       </div>
     </div>
   );

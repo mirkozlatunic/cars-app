@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { changeCost, changeName, addCar } from "../store";
+import { changeName, changeCost, addCar } from "../store";
 
 function CarForm() {
   const dispatch = useDispatch();
@@ -34,7 +34,7 @@ function CarForm() {
               className="input is-expanded"
               value={name}
               onChange={handleNameChange}
-            ></input>
+            />
           </div>
 
           <div className="field">
@@ -44,7 +44,7 @@ function CarForm() {
               value={cost || ""}
               onChange={handleCostChange}
               type="number"
-            ></input>
+            />
           </div>
         </div>
         <div className="field">

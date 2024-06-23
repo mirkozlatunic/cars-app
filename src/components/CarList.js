@@ -15,7 +15,7 @@ function CarList() {
 
   const renderedCars = cars.map((car) => {
     return (
-      <div key={car.id}>
+      <div key={car.id} className="panel">
         <p>
           {car.name} - ${car.cost}
         </p>
@@ -31,8 +31,10 @@ function CarList() {
 
   return (
     <div className="car-list">
-      {renderedCars} <hr />
+      {renderedCars}
+      <hr />
     </div>
   );
 }
+
 export default CarList;
