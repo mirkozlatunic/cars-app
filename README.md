@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Frontend Mentor - Social Media Dashboard</h1>
+<h1>Cars App</h1>
 
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="html">
 <img src="https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white" alt="Bulma">
